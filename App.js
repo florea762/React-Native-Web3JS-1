@@ -50,6 +50,7 @@ export default function App() {
 
   const [message, setMessage] = useState('Nothing Yet');
 
+
   // Scans availbale BLT Devices and then call connectDevice
   async function scanDevices() {
     PermissionsAndroid.request(
